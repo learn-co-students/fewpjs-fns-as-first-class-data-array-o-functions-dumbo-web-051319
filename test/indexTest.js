@@ -1,7 +1,7 @@
 describe("index.js", () => {
   describe("independent functions", () => {
     it("has a function wakeDog", () => {
-      const a = "Xerox"
+      const a = "Xerox" 
       const b = "Border Collie"
       expect(wakeDog(a,b)).to.equal(`Wake ${a} the ${b}`)
     })
