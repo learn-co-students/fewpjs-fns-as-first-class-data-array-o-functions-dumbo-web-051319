@@ -64,3 +64,9 @@ function exerciseDog(dogName, dogBreed) {
   }
   return activeDogs;
 };
+
+
+// // this is the solution:
+// function exerciseDog(dog, breed) {
+//   return routine.map(fn => fn(dog, breed))
+// }
